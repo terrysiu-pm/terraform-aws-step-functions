@@ -702,7 +702,7 @@ locals {
     stepfunction_Sync = {
       stepfunction = {
         actions = [
-          "states:StartSyncExecution"
+          var.type == "EXPRESS" ? "states:StartSyncExecution" : "states:StartExecution"
         ]
       }
 

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.2.1](https://github.com/terraform-aws-modules/terraform-aws-step-functions/compare/v4.2.0...v4.2.1) (2024-09-03)
+
+
+### Bug Fixes
+* Update the `stepfunction_Sync` action to be set as `states:StartExecution` if the step function is a `STANDARD` worfklow
+  ([#65](https://github.com/terraform-aws-modules/terraform-aws-step-functions/issues/65))
+
+
 ## [4.2.0](https://github.com/terraform-aws-modules/terraform-aws-step-functions/compare/v4.1.1...v4.2.0) (2024-03-22)
 
 
